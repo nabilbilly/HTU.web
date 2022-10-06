@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      body {
+         background-color: blueviolet;
+         justify-content: center;
+         align-items: center;
+         margin:12px;
+         padding: 0px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         align-content: center;
+         justify-items: center;
+         flex-direction: row;
+     }   
+     div {
+         background: burlywood;
+         text-align:center;
+         width: 300px;
+         height: 400px;
+         padding: 12px;
+         outline-color: black;
+         font:italic;
+         font-size: large;
+         font-weight: lighter;
+     }
+    a{
+        text-decoration: none;
+    }
+    button{
+        color:cornsilk;
+        background:blueviolet;
+        cursor: pointer;
+        border:white;
+    }
+    button:hover{
+       background: violet;
+       color: black;
+
+    }
+    
+    
+    
+    
+    </style>
+</head>
+<body>
+    <div>  
+       <form>
+          <h3>Student Login - Portal</h3>
+        
+          <label for="username"></label>
+          Username: <input type="text" name="username" placeholder="Full Name">
+          <br>
+          <br>
+          <label for="indexnumber"></label>
+          Index No: <input type="text" name="indexnumber" placeholder="Index Number">
+          <br>
+          <br>
+          <label for="password"></label>
+          Password: <input type="password" name="password" placeholder="Password">
+          <br>
+          <br>
+          <input type="submit" name="btn_login" id="btn_login" value="Login">
+          <a href="#" ><h4>I Don't Have An Accout! Sign In Now</h4></a>
+          <a href="#" ><h6>I Lost My Identity Details</h6></a>
+          <a href="#"><button>Buy forms!</button></a>
+        </form>
+    </div>
+</body>
+</html>
